@@ -32,8 +32,11 @@ yarn build
 ## Load the Environment Variables
 
 ```sh
+export AWS_REGION="..."
 export AWS_ACCESS_KEY_ID="..."
 export AWS_SECRET_ACCESS_KEY="..."
+export S3_BUCKET_NAME="..."
+export CLOUDFRONT_DISTRIBUTION_ID="..."
 ```
 
 > Note: Missing environment variables will cause the script to throw an error.
