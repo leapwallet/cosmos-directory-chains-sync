@@ -163,7 +163,7 @@ async function createCloudFrontInvalidation(credentials: {
       CallerReference: new Date().toISOString(),
       Paths: {
         Quantity: 1,
-        Items: ['/cosmos-directory-cache/*'],
+        Items: ['/cosmos-directory-cache/graz-chains.json'],
       },
     },
   });

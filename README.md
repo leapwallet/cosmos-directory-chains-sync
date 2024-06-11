@@ -43,3 +43,9 @@ export AWS_SECRET_ACCESS_KEY="..."
 ```sh
 yarn start
 ```
+
+# Data Usage
+
+The data is served via cloudfront and can be accessed via the following path -
+
+`/cosmos-directory-cache/graz-chains.json`
