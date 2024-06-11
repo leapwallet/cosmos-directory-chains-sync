@@ -13,8 +13,6 @@ type GeneratedData = {
 }
 ```
 
-The generated data is saved in an leap's assets s3 bucket and served via cloudfront.
-
 # Usage
 
 ## Install Dependencies
