@@ -1,8 +1,9 @@
 {
   "name": "cosmos-directory-graz-chains-sync",
   "version": "1.0.0",
+  "type": "module",
   "source": "src/index.ts",
-  "main": "dist/index.js",
+  "module": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.json",
