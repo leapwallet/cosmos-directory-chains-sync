@@ -134,6 +134,7 @@ async function uploadToS3(
     accessKeyId: string;
     secretAccessKey: string;
     bucketName: string;
+    awsRegion: string;
   }
 ) {
   const command = new PutObjectCommand({
@@ -144,7 +145,7 @@ async function uploadToS3(
     ContentType: 'application/json',
   });
   const s3Client = new S3Client({
-    region: 'auto',
+    region: options.awsRegion,
     credentials: options,
   });
   await s3Client.send(command);
